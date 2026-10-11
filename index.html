@@ -1,12 +1,14 @@
 <!doctype html>
 <html lang="de">
   <head>
+    <!-- Metadaten für Sprache, Darstellung und Suchmaschinenbeschreibung -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Informationen über Black-cat bias und faire Adoption schwarzer Katzen in Österreich und Deutschland." />
     <title>Black Paws | Adoption ohne Vorurteile</title>
   </head>
   <body>
+    <!-- Orientierung durch Thema, Marke und Hauptnavigation -->
     <header class="site-header">
       <p class="eyebrow">Tierschutz &amp; Aufklärung</p>
       <nav aria-label="Hauptnavigation">
@@ -19,7 +21,9 @@
       </nav>
     </header>
 
+    <!-- zentraler Inhalt der Informationsseite -->
     <main id="start">
+      <!-- Themeneinstieg mit Erklärungstext und SVG-Pfote -->
       <section class="hero" aria-labelledby="hero-title">
         <article class="hero-copy">
           <p class="section-label">Ein Blick, der zählt</p>
@@ -42,6 +46,7 @@
         </figure>
       </section>
 
+      <!-- sachliche Einordnung des Black-cat bias ohne Schuldzuweisung -->
       <section id="wissen" class="split-section" aria-labelledby="wissen-title">
         <article>
           <p class="section-label">01 / Verstehen</p>
@@ -55,6 +60,7 @@
         </aside>
       </section>
 
+      <!-- semantische Kartenregion für die spätere TypeScript-Ausgabe -->
       <section id="fakten" class="facts-section" aria-labelledby="fakten-title">
         <header class="section-heading">
           <section>
@@ -63,6 +69,7 @@
           </section>
           <p>Durchsuche die Karten oder wähle einen Schwerpunkt.</p>
         </header>
+        <!-- tastaturfreundliche Filterung mit Label, Suchfeld und Buttons -->
         <form class="filter-form" role="search">
           <label for="fact-search">Fakten durchsuchen</label>
           <input id="fact-search" name="fact-search" type="search" placeholder="z. B. Fotos, Charakter ..." />
@@ -74,6 +81,7 @@
         <section class="fact-grid" aria-label="Faktenkarten"></section>
       </section>
 
+      <!-- konkrete Handlungsschritte für faire Adoption -->
       <section id="handeln" class="action-section" aria-labelledby="handeln-title">
         <article>
           <p class="section-label">03 / Aktiv werden</p>
@@ -92,11 +100,13 @@
       </section>
     </main>
 
+    <!-- Projektname, persönlicher Kontext und Ausbildung -->
     <footer class="site-footer">
       <p><strong>BLACK PAWS</strong> &middot; Für faire Chancen auf ein Zuhause.</p>
       <p>Ein persönliches Aufklärungsprojekt aus Österreich.</p>
       <p>Demo-Projekt von Barbara Schön, BA, für das ITMA-Studium an der Ferdinand Porsche FernFH im Modul SED502 Frontend Development.</p>
     </footer>
+    <!-- TypeScript-Modul für dynamische Suche und Filter -->
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
