@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Informationen über Black-cat bias und faire Adoption schwarzer Katzen in Österreich und Deutschland." />
+    <title>Black Paws | Adoption ohne Vorurteile</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <p class="eyebrow">Tierschutz &amp; Aufklärung</p>
+      <nav aria-label="Hauptnavigation">
+        <a class="brand" href="#start" aria-label="Black Paws Startseite">BLACK PAWS</a>
+        <ul>
+          <li><a href="#wissen">Wissen</a></li>
+          <li><a href="#fakten">Faktencheck</a></li>
+          <li><a href="#handeln">Handeln</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="start">
+      <section class="hero" aria-labelledby="hero-title">
+        <article class="hero-copy">
+          <p class="section-label">Ein Blick, der zählt</p>
+          <h1 id="hero-title">Schwarze Katzen verdienen mehr als einen zweiten Blick.</h1>
+          <p class="hero-intro">Der Black-cat bias beschreibt die unbewusste Tendenz, schwarze Katzen bei der Vermittlung zu übersehen. Gute Information macht aus einem Vorurteil eine faire Entscheidung.</p>
+          <a class="button button-primary" href="#fakten">Vorurteile prüfen <span aria-hidden="true">&#8594;</span></a>
+        </article>
+        <figure class="hero-figure">
+          <svg class="paw-mark" viewBox="0 0 240 360" role="img" aria-label="Schwarze Pfote mit orangefarbener Trennlinie">
+            <line x1="18" y1="24" x2="18" y2="336" />
+            <g class="paw-shape">
+              <ellipse cx="139" cy="238" rx="60" ry="46" />
+              <ellipse cx="86" cy="142" rx="20" ry="31" transform="rotate(-28 86 142)" />
+              <ellipse cx="135" cy="112" rx="20" ry="33" transform="rotate(-8 135 112)" />
+              <ellipse cx="184" cy="112" rx="20" ry="33" transform="rotate(8 184 112)" />
+              <ellipse cx="224" cy="145" rx="20" ry="31" transform="rotate(28 224 145)" />
+            </g>
+          </svg>
+          <figcaption>Eine Fellfarbe sagt nichts über Charakter oder Bindung aus.</figcaption>
+        </figure>
+      </section>
+
+      <section id="wissen" class="split-section" aria-labelledby="wissen-title">
+        <article>
+          <p class="section-label">01 / Verstehen</p>
+          <h2 id="wissen-title">Was steckt hinter dem Bias?</h2>
+          <p>In Vermittlungsanzeigen konkurrieren viele Tiere um Aufmerksamkeit. Dunkles Fell wirkt auf Fotos manchmal weniger kontrastreich, und alte kulturelle Erzählungen können unbewusst Erwartungen prägen.</p>
+          <p>Das ist kein Grund, Menschen zu verurteilen. Es ist ein Anlass, genauer hinzusehen: Verhalten, Bedürfnisse und die Beziehung zum Tier sind aussagekräftiger als die Fellfarbe.</p>
+        </article>
+        <aside class="pull-quote" aria-label="Merksatz zur Adoption">
+          <p>„Nicht die Farbe entscheidet, sondern die Verbindung.“</p>
+          <cite>— Black Paws Leitgedanke</cite>
+        </aside>
+      </section>
+
+      <section id="fakten" class="facts-section" aria-labelledby="fakten-title">
+        <header class="section-heading">
+          <section>
+            <p class="section-label">02 / Einordnen</p>
+            <h2 id="fakten-title">Fakten statt Bauchgefühl</h2>
+          </section>
+          <p>Durchsuche die Karten oder wähle einen Schwerpunkt.</p>
+        </header>
+        <form class="filter-form" role="search">
+          <label for="fact-search">Fakten durchsuchen</label>
+          <input id="fact-search" name="fact-search" type="search" placeholder="z. B. Fotos, Charakter ..." />
+          <button class="filter-button is-active" type="button" data-filter="Alle">Alle</button>
+          <button class="filter-button" type="button" data-filter="Vorurteil">Vorurteile</button>
+          <button class="filter-button" type="button" data-filter="Praxis">Praxis</button>
+        </form>
+        <p class="results-status" aria-live="polite"></p>
+        <section class="fact-grid" aria-label="Faktenkarten"></section>
+      </section>
+
+      <section id="handeln" class="action-section" aria-labelledby="handeln-title">
+        <article>
+          <p class="section-label">03 / Aktiv werden</p>
+          <h2 id="handeln-title">So wird Adoption fairer.</h2>
+          <ol>
+            <li><strong>Fotos mit Kontext:</strong> mehrere helle Bilder zeigen Augen, Haltung und Persönlichkeit.</li>
+            <li><strong>Beschreibungen lesen:</strong> Temperament und Alltag passen besser als ein erster Farbeindruck.</li>
+            <li><strong>Tierheime unterstützen:</strong> teilen, besuchen, fragen und geduldig kennenlernen.</li>
+          </ol>
+        </article>
+        <aside class="action-note">
+          <p class="section-label">Für Tierheime &amp; Pflegestellen</p>
+          <p>Gute Texte und sichtbare Persönlichkeit helfen schwarzen Tieren, nicht im Scrollen unterzugehen.</p>
+          <a class="button button-secondary" href="mailto:hallo@black-paws.example">Austausch starten <span aria-hidden="true">&#8594;</span></a>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p><strong>BLACK PAWS</strong> &middot; Für faire Chancen auf ein Zuhause.</p>
+      <p>Ein persönliches Aufklärungsprojekt aus Österreich.</p>
+      <p>Demo-Projekt von Barbara Schön, BA, für das ITMA-Studium an der Ferdinand Porsche FernFH im Modul SED502 Frontend Development.</p>
+    </footer>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
